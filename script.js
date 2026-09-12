@@ -1,0 +1,2 @@
+const h=document.querySelector('header'),m=document.querySelector('.menu'),n=document.querySelector('nav');addEventListener('scroll',()=>h.classList.toggle('scrolled',scrollY>10),{passive:true});m.onclick=()=>{let o=m.getAttribute('aria-expanded')==='true';m.setAttribute('aria-expanded',String(!o));n.classList.toggle('open',!o)};n.onclick=e=>{if(e.target.closest('a')){n.classList.remove('open');m.setAttribute('aria-expanded','false')}};document.querySelector('#year').textContent=new Date().getFullYear();
+
