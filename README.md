@@ -1,47 +1,33 @@
-# RoleDaemon™ homepage
+# RoleDaemon website
 
-A production-ready static homepage for [RoleDaemon.com](https://roledaemon.com), deployable directly to GitHub Pages with no build step.
+Static dark-mode marketing site. Serve this directory as the web root. No build step or runtime dependencies.
 
-## Publish on GitHub Pages
+The business model remains undecided. All product UI is explicitly illustrative, with fictional examples. Registration is disabled because no backend endpoint exists. No resumes or signup information are collected.
 
-1. Create the organization-site repository `RoleDaemon/RoleDaemon.github.io` (recommended), or use another repository in the organization.
-2. Copy every file and folder from this package to the repository root, commit, and push to `main`.
-3. Open **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, then select `main` and `/(root)`. Save.
-4. Under **Custom domain**, enter `roledaemon.com` and save. Keep the included `CNAME` in the publishing root.
-5. After DNS resolves and GitHub provisions the certificate, enable **Enforce HTTPS**.
+## Assets
 
-The included `.nojekyll` file tells GitHub Pages to serve the package as plain static files.
+Local Sora and Inter WOFF2 fonts and licenses; local Iconoir SVGs and license; outlined wordmarks, favicon/app icons, eight optimized mascot poses, responsive AVIF/WebP text-free hero artwork, social images, reusable HTML product previews and application-state designs. See assets/manifest.json. Large original PNGs are preserved in prior Git history, not loaded by the site.
 
-## Cloudflare DNS
+## Validation
 
-In Cloudflare **DNS → Records**, add these **DNS only** records (gray cloud) while GitHub provisions the site and certificate:
+Local Lighthouse mobile: performance 99, accessibility 100, best practices 100, SEO 100. Initial load 139 KiB. Five requested widths checked: 320, 375, 768, 1024, 1440. No horizontal overflow. Mobile navigation and Escape focus restoration tested. Local links and assets checked. Console errors absent during browser checks. No live product functionality is implied by preview controls.
 
-| Type | Name | Target |
-| --- | --- | --- |
-| A | `@` | `185.199.108.153` |
-| A | `@` | `185.199.109.153` |
-| A | `@` | `185.199.110.153` |
-| A | `@` | `185.199.111.153` |
-| CNAME | `www` | `RoleDaemon.github.io` |
+## Publication
 
-Remove conflicting `A`, `AAAA`, `ALIAS`, `ANAME`, or `CNAME` records for `@` or `www`. GitHub also recommends verifying the domain at the organization level before attaching it, which helps prevent domain takeover.
+This checkout contains the finished replacement. Authenticate Git as an account with write access to RoleDaemon/RoleDaemon.github.io, then from this directory run:
 
-Official references: [publishing source](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), [custom domains](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages), and [HTTPS/DNS records](https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https).
+    git push origin HEAD:main
 
-## Local preview
+This is a normal fast-forward push; do not force. If main advances, fetch and reconcile changes before pushing. The previously created remote branch redesign/dark-intelligence points to the original baseline until the replacement is pushed.
 
-Open `index.html` directly or serve the folder with any static HTTP server. No dependencies are required.
+GitHub Pages already deploys the main branch at the root. CNAME remains roledaemon.com; .nojekyll is preserved. Wait for the Pages build to succeed and verify the homepage, /privacy/, /contact/, and /assets/social/default-og.png.
 
-## Customize
+## Existing domain problem
 
-- Edit product copy in `index.html`.
-- Replace `assets/mascot.png` while preserving the filename.
-- Replace `assets/social-card.png` after major messaging changes.
-- Palette tokens live at the top of `styles.css`.
+HTTP apex is working; HTTP www redirects to the apex. HTTPS certificate hostname verification fails for apex and www. This issue predates the redesign. DNS was inspected, not modified: four DNS-only apex A records 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153; DNS-only www CNAME roledaemon.github.io. No conflicting AAAA records were present. Cloudflare proxy is off, so its SSL setting does not serve the website certificate.
 
-## Brand palette
+Sign in as the RoleDaemon repository owner and open https://github.com/RoleDaemon/RoleDaemon.github.io/settings/pages. Confirm main / (root), custom domain roledaemon.com, and inspect the certificate provisioning message. Allow GitHub to finish provisioning; resolve any specific validation error shown there. Enable Enforce HTTPS once available. Verify https://roledaemon.com and https://www.roledaemon.com with normal certificate checks; www should redirect to the canonical apex. Do not change these correct DNS records or bypass certificate verification to disguise the problem.
 
-Core: `#0F084B`, `#26408B`, `#3D60A7`, `#81B1D5`, `#A0D2E7`.
+## Before registration opens
 
-Semantic only: warning `#FFB000`, error `#FF5A5F`, success `#38D996`, information `#5CC8FF`.
-
+Implement a real endpoint and privacy disclosures before enabling the form. Document provider use, retention, export and deletion. Revisit product capability statements against the actual application. No licensing or delivery-model commitments should be added without a deliberate decision.

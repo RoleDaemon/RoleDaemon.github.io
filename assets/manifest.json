@@ -1,0 +1,349 @@
+{
+  "notes": "Generated character scenes derive from the publicly supplied approved mascot. Product previews are illustrative HTML, not real application screenshots. Social text uses deterministic outlined fonts. Large source PNGs remain in Git history.",
+  "assets": [
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 568
+    },
+    {
+      "path": "assets/brand/app-icon-192.png",
+      "bytes": 6419
+    },
+    {
+      "path": "assets/brand/app-icon-512.png",
+      "bytes": 22019
+    },
+    {
+      "path": "assets/brand/apple-touch-icon.png",
+      "bytes": 6374
+    },
+    {
+      "path": "assets/brand/mascot-180.webp",
+      "bytes": 8572
+    },
+    {
+      "path": "assets/brand/mascot-360.webp",
+      "bytes": 18254
+    },
+    {
+      "path": "assets/brand/mascot-600.webp",
+      "bytes": 32618
+    },
+    {
+      "path": "assets/brand/mascot-head.svg",
+      "bytes": 568
+    },
+    {
+      "path": "assets/brand/mascot-only.svg",
+      "bytes": 568
+    },
+    {
+      "path": "assets/brand/mascot.webp",
+      "bytes": 18254
+    },
+    {
+      "path": "assets/brand/small-mark.svg",
+      "bytes": 568
+    },
+    {
+      "path": "assets/brand/wordmark-cobalt.svg",
+      "bytes": 5323
+    },
+    {
+      "path": "assets/brand/wordmark-horizontal.svg",
+      "bytes": 5323
+    },
+    {
+      "path": "assets/brand/wordmark-monochrome.svg",
+      "bytes": 5329
+    },
+    {
+      "path": "assets/brand/wordmark-tm.svg",
+      "bytes": 5608
+    },
+    {
+      "path": "assets/brand/wordmark-white.svg",
+      "bytes": 5323
+    },
+    {
+      "path": "assets/fonts/inter-400.woff2",
+      "bytes": 19284
+    },
+    {
+      "path": "assets/fonts/inter-600.woff2",
+      "bytes": 19788
+    },
+    {
+      "path": "assets/fonts/inter-OFL.txt",
+      "bytes": 4377
+    },
+    {
+      "path": "assets/fonts/sora-600.woff2",
+      "bytes": 14424
+    },
+    {
+      "path": "assets/fonts/sora-OFL.txt",
+      "bytes": 4385
+    },
+    {
+      "path": "assets/hero/desktop.avif",
+      "bytes": 13993
+    },
+    {
+      "path": "assets/hero/desktop.webp",
+      "bytes": 15482
+    },
+    {
+      "path": "assets/hero/mobile.avif",
+      "bytes": 5330
+    },
+    {
+      "path": "assets/hero/mobile.webp",
+      "bytes": 6042
+    },
+    {
+      "path": "assets/hero/tablet.avif",
+      "bytes": 9864
+    },
+    {
+      "path": "assets/hero/tablet.webp",
+      "bytes": 10816
+    },
+    {
+      "path": "assets/hero/text-free.avif",
+      "bytes": 13993
+    },
+    {
+      "path": "assets/hero/text-free.webp",
+      "bytes": 15482
+    },
+    {
+      "path": "assets/icons/activity.svg",
+      "bytes": 230
+    },
+    {
+      "path": "assets/icons/arrow-right.svg",
+      "bytes": 246
+    },
+    {
+      "path": "assets/icons/arrow-up-right.svg",
+      "bytes": 262
+    },
+    {
+      "path": "assets/icons/bell.svg",
+      "bytes": 678
+    },
+    {
+      "path": "assets/icons/bookmark.svg",
+      "bytes": 337
+    },
+    {
+      "path": "assets/icons/building.svg",
+      "bytes": 1005
+    },
+    {
+      "path": "assets/icons/calendar.svg",
+      "bytes": 623
+    },
+    {
+      "path": "assets/icons/check.svg",
+      "bytes": 219
+    },
+    {
+      "path": "assets/icons/dashboard.svg",
+      "bytes": 760
+    },
+    {
+      "path": "assets/icons/filter.svg",
+      "bytes": 674
+    },
+    {
+      "path": "assets/icons/group.svg",
+      "bytes": 754
+    },
+    {
+      "path": "assets/icons/LICENSE.txt",
+      "bytes": 1068
+    },
+    {
+      "path": "assets/icons/menu.svg",
+      "bytes": 391
+    },
+    {
+      "path": "assets/icons/nav-arrow-right.svg",
+      "bytes": 219
+    },
+    {
+      "path": "assets/icons/page.svg",
+      "bytes": 813
+    },
+    {
+      "path": "assets/icons/refresh.svg",
+      "bytes": 458
+    },
+    {
+      "path": "assets/icons/search.svg",
+      "bytes": 457
+    },
+    {
+      "path": "assets/icons/shield-check.svg",
+      "bytes": 579
+    },
+    {
+      "path": "assets/icons/suitcase.svg",
+      "bytes": 373
+    },
+    {
+      "path": "assets/icons/xmark.svg",
+      "bytes": 312
+    },
+    {
+      "path": "assets/mascot/action-sheet-dark.webp",
+      "bytes": 62686
+    },
+    {
+      "path": "assets/mascot/action-sheet-reference.webp",
+      "bytes": 114216
+    },
+    {
+      "path": "assets/mascot/alert-small.webp",
+      "bytes": 4400
+    },
+    {
+      "path": "assets/mascot/alert.webp",
+      "bytes": 10386
+    },
+    {
+      "path": "assets/mascot/company-research-small.webp",
+      "bytes": 4404
+    },
+    {
+      "path": "assets/mascot/company-research.webp",
+      "bytes": 10298
+    },
+    {
+      "path": "assets/mascot/discovery-small.webp",
+      "bytes": 4760
+    },
+    {
+      "path": "assets/mascot/discovery.webp",
+      "bytes": 11398
+    },
+    {
+      "path": "assets/mascot/fit-scoring-small.webp",
+      "bytes": 4534
+    },
+    {
+      "path": "assets/mascot/fit-scoring.webp",
+      "bytes": 10926
+    },
+    {
+      "path": "assets/mascot/follow-up-small.webp",
+      "bytes": 4286
+    },
+    {
+      "path": "assets/mascot/follow-up.webp",
+      "bytes": 10180
+    },
+    {
+      "path": "assets/mascot/hiring-manager-research-small.webp",
+      "bytes": 4826
+    },
+    {
+      "path": "assets/mascot/hiring-manager-research.webp",
+      "bytes": 11264
+    },
+    {
+      "path": "assets/mascot/resume-tailoring-small.webp",
+      "bytes": 4580
+    },
+    {
+      "path": "assets/mascot/resume-tailoring.webp",
+      "bytes": 10756
+    },
+    {
+      "path": "assets/mascot/tracking-small.webp",
+      "bytes": 4506
+    },
+    {
+      "path": "assets/mascot/tracking.webp",
+      "bytes": 10666
+    },
+    {
+      "path": "assets/previews/application-pipeline.html",
+      "bytes": 1679
+    },
+    {
+      "path": "assets/previews/daemon-activity.html",
+      "bytes": 1187
+    },
+    {
+      "path": "assets/previews/fit-explanation.html",
+      "bytes": 2743
+    },
+    {
+      "path": "assets/previews/opportunity-feed.html",
+      "bytes": 9231
+    },
+    {
+      "path": "assets/previews/research-workspace.html",
+      "bytes": 2133
+    },
+    {
+      "path": "assets/social/default-og.png",
+      "bytes": 14234
+    },
+    {
+      "path": "assets/social/default-og.svg",
+      "bytes": 78874
+    },
+    {
+      "path": "assets/social/early-access.png",
+      "bytes": 14234
+    },
+    {
+      "path": "assets/social/early-access.svg",
+      "bytes": 78874
+    },
+    {
+      "path": "assets/social/github-social.png",
+      "bytes": 13844
+    },
+    {
+      "path": "assets/social/github-social.svg",
+      "bytes": 78915
+    },
+    {
+      "path": "assets/social/linkedin-banner.png",
+      "bytes": 11945
+    },
+    {
+      "path": "assets/social/linkedin-banner.svg",
+      "bytes": 79012
+    },
+    {
+      "path": "assets/states/empty.svg",
+      "bytes": 834
+    },
+    {
+      "path": "assets/states/index.html",
+      "bytes": 2029
+    },
+    {
+      "path": "assets/states/no-results.svg",
+      "bytes": 834
+    },
+    {
+      "path": "assets/states/onboarding.svg",
+      "bytes": 835
+    },
+    {
+      "path": "assets/states/scanning.svg",
+      "bytes": 825
+    },
+    {
+      "path": "assets/states/success.svg",
+      "bytes": 823
+    }
+  ]
+}
